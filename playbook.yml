@@ -1,0 +1,6 @@
+---
+- name: playbook
+  hosts: client
+  gather_facts: true
+  roles:
+    - /root/roles/myroles

@@ -1,0 +1,5 @@
+---
+# tasks file for myroles
+- name: printing
+  debug:
+    msg: "{{ variable.f1 }}"
